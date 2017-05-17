@@ -1,0 +1,18 @@
+.likes {
+    font-size: 0.82em;
+}
+
+.likes__heart {
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+
+    position: relative;
+    top: 2px;
+
+    text-indent: -9999px;
+    overflow: hidden;
+
+    background-image: url(heart.png);
+    background-repeat: no-repeat;
+}
